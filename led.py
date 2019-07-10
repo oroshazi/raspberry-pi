@@ -9,7 +9,7 @@ GPIO.output(LedPin, GPIO.HIGH)  # Set pin to high(+3.3V) to off the led
 
 try:
     while True:
-        print('...ti)
+        print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
         print('led off...')
