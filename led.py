@@ -27,25 +27,25 @@ try:
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-        print('...taa)
+        print('...taa')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-        print('...taa)
+        print('...taa')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-        print('...taa)
+        print('...taa')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-        print('...ti)
+        print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
         print('led off...')
