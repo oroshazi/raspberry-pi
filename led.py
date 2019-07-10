@@ -12,76 +12,57 @@ try:
         print('...ti)
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...taa)
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...taa)
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...taa)
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.7)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...ti)
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
         print('...ti')
         GPIO.output(LedPin, GPIO.LOW)  # led on
         time.sleep(0.3)
-
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
         time.sleep(0.5)
-
-
 # When 'Ctrl+C' is pressed, the flowing code will be  executed.
 except KeyboardInterrupt:
     GPIO.output(LedPin, GPIO.HIGH)   # led off
