@@ -62,7 +62,7 @@ try:
         time.sleep(0.3)
         print('led off...')
         GPIO.output(LedPin, GPIO.HIGH)  # led off
-        time.sleep(0.2)
+        time.sleep(0.8)
 # When 'Ctrl+C' is pressed, the flowing code will be  executed.
 except KeyboardInterrupt:
     GPIO.output(LedPin, GPIO.HIGH)   # led off
